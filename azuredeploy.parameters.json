@@ -33,16 +33,16 @@
       "value": "0c53d26bc59e4dc8a40e9b0fdc6538cd"
     },
     "analyticsMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://azureuser:Google@123@testmngo:27017"
     },
     "trackingLiveMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://azureuser:Google@123@testmngo:27017"
     },
     "trackingHistoryMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://azureuser:Google@123@testmngo:27017"
     },
     "trackingContactMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://azureuser:Google@123@testmngo:27017"
     },
     "licenseXml": {
       "value": "https://raw.githubusercontent.com/anuragsrivastava-k/sitecore/master/license.xml"
