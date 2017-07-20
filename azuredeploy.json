@@ -361,7 +361,7 @@
       "properties": {
         "mode": "incremental",
         "templateLink": {
-          "uri": "[concat(uri(parameters('templateLinkBase'), /infrastructure.json'), parameters('templateLinkAccessToken'))]"
+          "uri": "[concat(uri(parameters('templateLinkBase'), '/infrastructure.json'), parameters('templateLinkAccessToken'))]"
         },
         "parameters": {
           "deploymentId": {
