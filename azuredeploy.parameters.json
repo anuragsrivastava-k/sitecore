@@ -1,0 +1,48 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "sitecore"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://sitecorestorage48.blob.core.windows.net/resource/publish.zip"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://sitecorestorage48.blob.core.windows.net/resource/publish.zip"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://sitecorestorage48.blob.core.windows.net/resource/publish.zip"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://sitecorestorage48.blob.core.windows.net/resource/publish.zip"
+    },
+    "sqlServerLogin": {
+      "value": "azureuser"
+    },
+    "sqlServerPassword": {
+      "value": "M1umb3ai2123"
+    },
+    "sitecoreAdminPassword": {
+      "value": "Google@123"
+    },
+    "repAuthenticationApiKey": {
+      "value": ""
+    },
+    "analyticsMongoDbConnectionString": {
+      "value": ""
+    },
+    "trackingLiveMongoDbConnectionString": {
+      "value": ""
+    },
+    "trackingHistoryMongoDbConnectionString": {
+      "value": ""
+    },
+    "trackingContactMongoDbConnectionString": {
+      "value": ""
+    },
+    "licenseXml": {
+      "value": ""
+    }
+  }
+}
