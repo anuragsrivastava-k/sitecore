@@ -17,6 +17,9 @@
     "repMsDeployPackageUrl": {
       "value": "https://sitecorestorage48.blob.core.windows.net/resource/publish.zip"
     },
+	"templateLinkBase":{
+	"value":"https://raw.githubusercontent.com/anuragsrivastava-k/sitecore/master/"
+	},
     "sqlServerLogin": {
       "value": "azureuser"
     },
@@ -42,7 +45,7 @@
       "value": ""
     },
     "licenseXml": {
-      "value": ""
+      "value": "<root><raw></raw></root>"
     }
   }
 }
