@@ -45,7 +45,7 @@
       "value": ""
     },
     "licenseXml": {
-      "value": "<root><raw></raw></root>"
+      "value": "https://raw.githubusercontent.com/anuragsrivastava-k/sitecore/master/license.xml"
     }
   }
 }
