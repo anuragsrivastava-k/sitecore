@@ -17,7 +17,7 @@
         "items": [
           {
             "name": "empty",
-            "templateLink": "[concat(uri(parameters('templateLinkBase'), 'sitecore/master/emptyAddon.json'), parameters('templateLinkAccessToken'))]",
+            "templateLink": "[concat(uri(parameters('templateLinkBase'), '/emptyAddon.json'), parameters('templateLinkAccessToken'))]",
             "parameters": {
             }
           }
@@ -361,7 +361,7 @@
       "properties": {
         "mode": "incremental",
         "templateLink": {
-          "uri": "[concat(uri(parameters('templateLinkBase'), 'sitecore/master/infrastructure.json'), parameters('templateLinkAccessToken'))]"
+          "uri": "[concat(uri(parameters('templateLinkBase'), /infrastructure.json'), parameters('templateLinkAccessToken'))]"
         },
         "parameters": {
           "deploymentId": {
@@ -466,7 +466,7 @@
       "properties": {
         "mode": "incremental",
         "templateLink": {
-          "uri": "[concat(uri(parameters('templateLinkBase'), 'sitecore/master/application.json'), parameters('templateLinkAccessToken'))]"
+          "uri": "[concat(uri(parameters('templateLinkBase'), '/application.json'), parameters('templateLinkAccessToken'))]"
         },
         "parameters": {
           "deploymentId": {
